@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GET Data in Tabular Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>GET Data in Tabular Form</h1>
+
+  <button onclick="getAllPosts()">Get All Posts</button>
+  <button onclick="getPostById()">Get Post by ID</button>
+  <input type="number" id="postIdInput" placeholder="Enter Post ID">
+  <button onclick="clearTable()">Clear Table</button>
+  <!-- <button onclick="CreatePost()">Create Post</button> -->
+
+  <table id="postsTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>User ID</th>
+        <th>Title</th>
+        <th>Body</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
