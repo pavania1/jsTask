@@ -1,5 +1,7 @@
 
-
+body{
+  background-color:#999;
+}
 /* style.css */
 #postsTable {
     border-collapse: collapse;
